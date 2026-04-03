@@ -20,6 +20,10 @@
     margin-top: 1rem;
   }
 
+  .hero-card {
+    padding-bottom: 0;
+  }
+
   .hero-visual,
   .hero-visual-tall {
     min-height: 20rem;

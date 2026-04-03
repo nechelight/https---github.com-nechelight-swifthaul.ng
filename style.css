@@ -364,7 +364,11 @@ ul {
 }
 
 .hero-card {
+  display: grid;
+  gap: 1.25rem;
+  align-content: start;
   position: relative;
+  padding-bottom: 0;
 }
 
 .hero-card::before {
@@ -379,7 +383,7 @@ ul {
 }
 
 .hero-visual {
-  margin: 0 0 1rem;
+  margin: 0;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -466,9 +470,9 @@ ul {
 }
 
 .hero-panel {
-  width: min(100%, 24rem);
-  margin-top: -6rem;
-  margin-left: auto;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
   position: relative;
   z-index: 1;
 }
